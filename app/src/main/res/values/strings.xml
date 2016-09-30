@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">The Office Employees</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="employee_names">
+        <item>Jim</item>
+        <item>Pam</item>
+        <item>Micheal</item>
+        <item>Dwight</item>
+        <item>Creed</item>
+        <item>Stanley</item>
+        <item>Kevin</item>
+        <item>Toby</item>
+    </string-array>
+    <string-array name="occupations">
+        <item>Salesman</item>
+        <item>Receptionist</item>
+        <item>Regional Manager</item>
+        <item>ATT Regional Manager</item>
+        <item>Unknown</item>
+        <item>Salesman</item>
+        <item>Accounting</item>
+        <item>Human Resources</item>
+    </string-array>
+    <string name="title_activity_second">secondActivity</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="80dp"
+    android:background="#000000">
+<ImageView
+    android:id="@+id/employee_pics"
+    android:layout_width="100dp"
+    android:layout_height="75dp"
+    android:layout_alignParentLeft="true"
+    android:src="@drawable/jim"
+    />
+    <TextView
+        android:id="@+id/employee_name"
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:layout_toRightOf="@id/employee_pics"
+        android:text="Jim Helpert"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        />
+    <TextView
+        android:id="@+id/occupation"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_toRightOf="@id/employee_name"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:text="Salesman"
+        android:textColor="#FFFFFF"
+        />
+<View
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:background="#FFFFFF"
+    android:layout_below="@+id/employee_pics">
+</View>
+
+</RelativeLayout>
